@@ -18,150 +18,103 @@ class HelloWorldApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: SafeArea(
-          child: Column(
-            children: [
-              Expanded(
-                child: Container(
-                  height: 200,
-                  width: 300,
-                  decoration: BoxDecoration(
-                    color: Colors.black26,
-                  ),
-                  alignment: Alignment.center,
-                  margin: EdgeInsets.all(20),
-                  child: Text(
-                    'Hello world',
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Row(
+          child: Center(
+                child: Wrap(
                   children: [
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 75,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
                       alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      margin: EdgeInsets.all(10),
+                      child: Wrap(
+                        children: [
+                          Text(
+                            'Hello world',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 10,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 75,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
                       alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      margin: EdgeInsets.all(10),
+                      child: Wrap(
+                        children: [
+                          Text(
+                            'Hello world',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 10,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 75,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
                       alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      margin: EdgeInsets.all(10),
+                      child: Wrap(
+                        children: [
+                          Text(
+                            'Hello world',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 10,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
+
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 75,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
                       alignment: Alignment.center,
-                      margin: EdgeInsets.all(20),
-                      child: Text(
-                        'Hello world',
-                        textDirection: TextDirection.ltr,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      margin: EdgeInsets.all(10),
+                      child: Wrap(
+                        children: [
+                          Text(
+                            'Hello world',
+                            textDirection: TextDirection.ltr,
+                            style: TextStyle(
+                              fontSize: 10,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],
                 ),
               ),
-              Expanded(
-                child: Container(
-                  height: 200,
-                  width: 300,
-                  decoration: BoxDecoration(
-                    color: Colors.black26,
-                  ),
-                  alignment: Alignment.center,
-                  margin: EdgeInsets.all(20),
-                  child: Text(
-                    'Hello world',
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Container(
-                  height: 200,
-                  width: 300,
-                  decoration: BoxDecoration(
-                    color: Colors.black26,
-                  ),
-                  alignment: Alignment.center,
-                  margin: EdgeInsets.all(20),
-                  child: Text(
-                    'Hello world',
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-            ],
           ),
         ),
-      ),
-    );
+      );
   }
 }
